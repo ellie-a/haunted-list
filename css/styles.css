@@ -56,11 +56,26 @@ font-size: 1.7em;
   position: absolute;
   left: 640px;
   top: 105px;
+  right: 50px;
 }
 
 .rightSide h4 {
   font-family: 'Amatic SC', cursive;
   font-size: 1.9em;
   color: rgb(14, 29, 92);
+  margin-bottom: 5px;
+}
 
+.rightSide p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(45, 80, 165);
+}
+
+#hgl {
+  font-family: 'Amatic SC', cursive;
+}
+
+#backList {
+  margin-top: -45px;
+  margin-left: 100px;
 }
