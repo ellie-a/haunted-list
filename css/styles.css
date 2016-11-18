@@ -11,6 +11,18 @@ html {
   top: 0;
   left: 0;
 }
+a {
+  text-decoration:none;
+  color: black;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
 
 .navbar {
   position: fixed;
@@ -78,4 +90,40 @@ font-size: 1.7em;
 #backList {
   margin-top: -45px;
   margin-left: 100px;
+}
+
+#header {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  color: rgb(14, 29, 92);
+  text-decoration: underline;
+}
+
+.reviews img {
+  width: 150px;
+  height: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  align-self: center;
+  display: block;
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.r1 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.r1 p {
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
 }
