@@ -24,6 +24,10 @@ a:visited {
   color: white;
 }
 
+a::after, a::before {
+  content: "-";
+}
+
 .navbar {
   position: fixed;
   top: 0;
